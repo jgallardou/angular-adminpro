@@ -19,7 +19,7 @@ export class IncrementComponent implements OnInit {
     this.btnClass = `btn ${this.btnClass}`;
   }
 
-  cambiarValor(valor: number): void {
+  cambiarValor(valor: number) {
     if (this.progreso >= 100 && valor >= 0) {
       this.valorSalida.emit(100);
       this.progreso = 100;
