@@ -4,7 +4,6 @@ import { IncrementComponent } from './increment/increment.component';
 import { FormsModule } from '@angular/forms';
 import { DonnutComponent } from './donnut/donnut.component';
 import { ChartsModule } from 'ng2-charts';
-
 @NgModule({
   declarations: [IncrementComponent, DonnutComponent],
   imports: [
